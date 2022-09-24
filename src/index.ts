@@ -15,7 +15,7 @@ import promptSync from 'prompt-sync'
  * @param {number} width  - weight number
  * @returns {number} Return value
  */
-function lengthCalculator (height: number, width: number): number {
+function lengthCalculator(height: number, width: number): number {
   const volume = 144
   const length = volume / height / width
   return length
