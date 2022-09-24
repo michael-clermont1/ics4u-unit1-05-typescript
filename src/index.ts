@@ -1,9 +1,9 @@
 /**
- * The program makes the user guess the random number
+ * The program gets the wood length
  *
  * By:      Michael Clermont
  * Version: 1.0
- * Since:   2022-11-25
+ * Since:   2022-9-24
  */
 
 import promptSync from 'prompt-sync'
@@ -15,7 +15,7 @@ import promptSync from 'prompt-sync'
  * @param {number} width  - weight number
  * @returns {number} Return value
  */
-function lengthCalculator(height: number, width: number): number {
+function lengthCalculator (height: number, width: number): number {
   const volume = 144
   const length = volume / height / width
   return length
